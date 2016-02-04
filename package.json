@@ -3,9 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node app.js",
-    "bower": "bower install",
-    "dev": "nodemon app.js"
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.13.2",
@@ -14,11 +12,6 @@
     "express": "~4.13.1",
     "jade": "~1.11.0",
     "morgan": "~1.6.1",
-    "node-sass-middleware": "0.8.0",
     "serve-favicon": "~2.3.0"
-  },
-  "devDependencies": {
-    "bower": "^1.7.7",
-    "nodemon": "^1.8.1"
   }
 }
